@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <title>Slider&2xFilter</title>
+</head>
+<body>   
+
+    <div class="wrapper-products--slider">
+        
+        <div class="slider">
+            <div class="slide prod kids zima-kids">
+                <img class="slide-img slide-1" src="/img/produkty/1.jpg" alt="">
+            </div>
+            <div class="slide prod ona swetry">
+                <img class="slide-img slide-2" src="/img/produkty/2.jpg" alt="">
+            </div>
+            <div class="slide prod ona zima-ona">
+                <img class="slide-img slide-3" src="/img/produkty/3.jpg" alt="">
+            </div>
+            <div class="slide prod on zima-on">
+                <img class="slide-img slide-4" src="/img/produkty/4.jpg" alt="">
+            </div>
+            <div class="slide prod ona zima-ona">
+                <img class="slide-img slide-5" src="/img/produkty/5.jpg" alt="">
+            </div>
+            <div class="slide prod kids kocyki">
+                <img class="slide-img slide-6" src="/img/produkty/6.jpg" alt="">
+            </div>
+            <div class="slide prod kids kocyki">
+                <img class="slide-img slide-7" src="/img/produkty/7.jpg" alt="">
+            </div>
+            <div class="slide prod ona kids skarpety">
+                <img class="slide-img slide-8" src="/img/produkty/8.jpg" alt="">
+            </div>
+            <div class="slide prod on skarpety">
+                <img class="slide-img slide-9" src="/img/produkty/9.jpg" alt="">
+            </div>
+            
+            <button class="slider__btn slider__btn--left">&larr;</button>
+            <button class="slider__btn slider__btn--right">&rarr;</button>
+            
+            <div class="dots">
+                <!-- creat in JS -->
+            </div>
+            
+        </div>
+
+        <!-- - -->
+
+        <div class="category">
+            <div class="cat-head">
+                <div class="cat-title-wrapper">
+                    <span class="cat-title color-text">Produkty</span>
+                    <span class="cat-title">dla niej, dla niego i dla dziecka</span>
+                </div>
+                <div class="form-wrapper">
+                    <select name="kategoria" id="kat-prod" class="forma-kat">
+                        <option selected value="all">Wszystko</option>
+                        <option value="ona">Dla niej</option>
+                        <option value="on">Dla niego</option>
+                        <option value="kids">Dla dziecka</option>
+                    </select>
+                </div>
+                
+            </div>
+            <div class="cat-filteredCat">
+                <div class="category-item swetry ">
+                    <div class="item-img item-img-swetry"></div>
+                    <span class="item-text">Swetry</span>
+                </div>
+                <div class="category-item skarpety">
+                    <div class="item-img item-img-skarpety"></div>
+                    <span class="item-text">Skarpety świąteczne</span>
+                </div>
+                <div class="category-item kocyki ">
+                    <div class="item-img item-img-kocyki"></div>
+                    <span class="item-text">Kocyki dziecięce</span>
+                </div>
+                <div class="category-item zima-on">
+                    <div class="item-img item-img-on"></div>
+                    <span class="item-text">Akcesoria zimowe męskie</span>
+                </div>
+                <div class="category-item zima-ona">
+                    <div class="item-img item-img-ona"></div>
+                    <span class="item-text">Akcesoria zimowe damskie</span>
+                </div>
+                <div class="category-item zima-kids">
+                    <div class="item-img item-img-dziecko"></div>
+                    <span class="item-text">Akcesoria zimowe dziecięce</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="/js/script.js"></script>
+    
+</body>
+</html>
